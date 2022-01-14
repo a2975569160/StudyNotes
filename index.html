@@ -46,18 +46,19 @@
           placeholder: "🔍 Search ",
           noData: "没有结果！",
           depth: 6,
+          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         },
         // plantuml使用默认皮肤
         plantuml: {
           skin: "default",
         },
         //字数插件
-        count: {
-          countable: true,
-          fontsize: "0.9em",
-          color: "rgb(90,90,90)",
-          language: "chinese",
-        },
+        // count: {
+        //   countable: true,
+        //   fontsize: "0.9em",
+        //   color: "rgb(90,90,90)",
+        //   language: "chinese",
+        // },
         // 分页导航插件
         pagination: {
           previousText: "上一卷",
@@ -102,7 +103,7 @@
     <!-- 搜索依赖 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
     <!-- 字数插件 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script> -->
     <!-- 分页导航 -->
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <!-- 文本高亮 -->
