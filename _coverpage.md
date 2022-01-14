@@ -2,6 +2,5 @@
 
 > 学习 · 记录
 
-[set out](#个人简介)
-
+[Getting Started](#个人简介)
 
